@@ -1,0 +1,265 @@
+<!-- 
+      from Create a Responsive Flexbox and Grid Portfolio Website by Coding with Julio
+      https://www.youtube.com/watch?v=T7PnWnTgusc
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <title>Walter S Valdez</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class ="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <!--Navigation will differ depending on projects and products-->
+        <nav class="top-nav">
+            <ul class="top-nav">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>                    
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Porfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Proper legal name change checks, and update if needed-->
+        <div class="landing-text">
+            <h1>Walter S Valdez</h1>
+            <h6>Full Stack Developer | Product Manager | CyberSecurity Specialist</h6>
+        </div>
+    </header>
+    <!--About. Keep updated.-->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile.img">
+                <!--Personalized photo-->
+                <img src="w_images\sno.jpg" alt="picture of Walter Valdez Santos">
+            </div>
+            <div class="about-heading">
+                <div class="about-details">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <!--Add as needed-->
+            <div class="social-media">
+                <ul class="nav-list">
+                    <li>
+                        <a href="https://www.facebook.com/WalterValdezSantos" class="icon-link">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/WalterVSantos" class="icon-link">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/theunmanifested" class="icon-link">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--Services. Different services offered-->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skills">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <!--Use Prioritization-->
+                    <h1>Web Design</h1>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div class="skills">
+                    <div class="icon-container">
+                        <i class="fas fa-code-group"></i>
+                    </div>
+                    <!--Different solutions-->
+                    <h1>Web Development</h1>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div class="skills">
+                    <div class="icon-container">
+                        <i class="fas fa-chart-group"></i>
+                    </div>
+                    <h1>Product Strategy</h1>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Portfolio. Body of work-->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="w_images\sno.jpg" alt="Walter with kids near a monument">
+                </div>
+                <div class="portfolio-description">
+                    <!--Similiar to Svcs but more in detail-->
+                    <h6>Web Development</h6>
+                    <h1>Blog Website</h1>
+                    <p>
+                        Sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+            </div>
+            <!--Portfolio Web Design-->
+            <div class="portfolio-item">
+                <div class="portfolio-description">
+                    <!--Similiar to Svcs but more in detail-->
+                    <h6>Web Design</h6>
+                    <h1>Product Layout</h1>
+                    <p>
+                        Sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="w_images\sno.jpgg" alt="Walter with kids near a monument">
+                </div>                
+            </div>
+            <!--Portfolio Web Apps-->
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="w_images\sno.jpg" alt="Walter with kids near a monument">
+                </div>
+                <div class="portfolio-description">
+                    <h6>Web Apps</h6>
+                    <h1>Product Sketch</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Experience-->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Experience</h1>
+                <h6>Past and current jobs/education</h6>
+            </div>
+            <div class="timeline">
+                <ul>
+                    <!--Ascending job list-->
+                    <li class="date" data-date="2017 - Present">
+                        <h1>UTSA</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                        </p>
+                    </li>
+                    <li class="date" data-date="2016 - 2015">
+                        <h1>GMR</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna
+                            aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna
+                            aliqua.
+                        </p>
+                    </li>
+                    <li class="date" data-date="2016 - 2015">
+                        <h1>TWC</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna
+                            aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna
+                            aliqua.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--Contact-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's talk</h6>
+            </div>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="service">Services:</label>
+                <select name="services" id="service">
+                    <option value="">Web Design</option>
+                    <option value="">Web Development</option>
+                    <option value="">Web Apps</option>
+                </select>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+            <p>&copy; 2019 Walter S. Valdez</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
