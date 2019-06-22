@@ -1,0 +1,29 @@
+Pinned by Coding with Julio
+Coding with Julio
+2 months ago
+I made a mistake when it came to the portfolio section and I did not notice until someone pointed it out. Please be sure to READ this so that you can correct the issue.
+
+
+in the portfolio section of the CSS I had 
+
+
+.profile-img {
+    width: 50rem;
+    flex: 1;
+}
+
+
+Please replace that with
+
+
+.portfolio-img {
+    flex: 1;
+}
+
+
+And also add flex: 1 to the .portfolio-description which I left empty
+
+
+.portfolio-description {
+    flex: 1;
+}

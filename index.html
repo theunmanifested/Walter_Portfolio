@@ -1,27 +1,28 @@
 <!--Inspired from Create a Responsive Flexbox and Grid Portfolio Website by Coding with Julio
     https://www.youtube.com/watch?v=T7PnWnTgusc-->
-
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-    <title>Walter S Valdez</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Walter S. Valdez</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
         <div class="menu-toggler">
-            <div class ="bar half start"></div>
+            <div class="bar half start"></div>
             <div class="bar"></div>
             <div class="bar half end"></div>
         </div>
         <!--Navigation will differ depending on projects and products-->
         <nav class="top-nav">
-            <ul class="top-nav">
+            <ul class="nav-list">
                 <li>
                     <a href="index.html" class="nav-link">Home</a>                    
                 </li>
@@ -51,12 +52,12 @@
     <!--About. Keep updated.-->
     <section class="about" id="about">
         <div class="container">
-            <div class="profile.img">
+            <div class="profile-img">
                 <!--Personalized photo-->
-                <img src="w_images\sno.jpg" alt="picture of Walter Valdez Santos">
+                <img src="w_images\Walter_army.jpg" alt="picture of Walter Valdez Santos">
             </div>
-            <div class="about-heading">
-                <div class="about-details">
+            <div class="about-details">
+                <div class="about-heading">
                     <h1>About</h1>
                     <h6>Myself</h6>
                 </div>
@@ -96,7 +97,7 @@
                 <h6>What I can do for you</h6>
             </div>
             <div class="my-skills">
-                <div class="skills">
+                <div class="skill">
                     <div class="icon-container">
                         <i class="fas fa-layer-group"></i>
                     </div>
@@ -106,7 +107,7 @@
                         occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="skills">
+                <div class="skill">
                     <div class="icon-container">
                         <i class="fas fa-code-group"></i>
                     </div>
@@ -117,7 +118,7 @@
                         occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="skills">
+                <div class="skill">
                     <div class="icon-container">
                         <i class="fas fa-chart-group"></i>
                     </div>
@@ -136,9 +137,10 @@
                 <h1>Portfolio</h1>
                 <h6>View some of my work</h6>
             </div>
+            <!--Portfolio Web Development-->
             <div class="portfolio-item">
                 <div class="portfolio-img">
-                    <img src="w_images\sno.jpg" alt="Walter with kids near a monument">
+                    <img src="w_images\portitem1.jpeg" alt="Walter with kids near a monument">
                 </div>
                 <div class="portfolio-description">
                     <!--Similiar to Svcs but more in detail-->
@@ -165,13 +167,13 @@
                     <a href="#" class="cta">View Details</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="w_images\sno.jpgg" alt="Walter with kids near a monument">
+                    <img src="w_images\portitem2.jpeg" alt="Walter with kids near a monument">
                 </div>                
             </div>
             <!--Portfolio Web Apps-->
             <div class="portfolio-item">
                 <div class="portfolio-img">
-                    <img src="w_images\sno.jpg" alt="Walter with kids near a monument">
+                    <img src="w_images\portitem3.jpeg" alt="Walter with kids near a monument">
                 </div>
                 <div class="portfolio-description">
                     <h6>Web Apps</h6>
@@ -190,8 +192,8 @@
     <section class="experience" id="experience">
         <div class="container">
             <div class="section-heading">
-                <h1>Experience</h1>
-                <h6>Past and current jobs/education</h6>
+                <h1>Work Experience</h1>
+                <h6>Past and current jobs</h6>
             </div>
             <div class="timeline">
                 <ul>
@@ -230,7 +232,7 @@
         <div class="container">
             <div class="section-heading">
                 <h1>Contact</h1>
-                <h6>Let's talk</h6>
+                <h6>Let's work together</h6>
             </div>
             <form action="">
                 <label for="name">Name:</label>
@@ -241,7 +243,7 @@
                 <select name="services" id="service">
                     <option value="">Web Design</option>
                     <option value="">Web Development</option>
-                    <option value="">Web Apps</option>
+                    <option value="">Web Design/Development</option>
                 </select>
                 <label for="subject">Subject:</label>
                 <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
@@ -256,8 +258,8 @@
             <p>&copy; 2019 Walter S. Valdez</p>
         </div>
     </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
