@@ -26,5 +26,11 @@ $(document).ready(function() {
         }, 1600);
     })
 
-    //AOS
+    //AOS initialization
+    AOS.init({
+        easing: 'ease',
+        duration: 1800,
+        // comment out below if you want AOS to keep repeating
+        once: true
+    })
 });
