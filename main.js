@@ -25,4 +25,6 @@ $(document).ready(function() {
             scrollTop: 0
         }, 1600);
     })
+
+    //AOS
 });
