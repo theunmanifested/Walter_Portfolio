@@ -342,7 +342,8 @@ li{
 }
 
 .portfolio-img{
-    width: 50rem;
+    /* comments on part 1 video made this rm */
+    /* width: 50rem; */
     flex: 1;
 }
 
