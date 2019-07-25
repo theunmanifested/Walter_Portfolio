@@ -18,4 +18,11 @@ $(document).ready(function() {
             scrollTop: $($(this).attr('href')).offset().top - 100
         }, 1725);
     });
+
+    // bottom-button-up scrolling to top
+    $('#up').on('click', function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1600);
+    })
 });
