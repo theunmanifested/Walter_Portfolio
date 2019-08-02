@@ -94,6 +94,11 @@ img{
 .has-margin-right{
     margin-right: 5rem;
 }
+
+.in-Text-a{
+    text-decoration: none;
+    color: rgb(149, 187, 245);
+}
 /*End reusable*/
 
 /*Start header*/
