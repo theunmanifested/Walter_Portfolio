@@ -280,6 +280,10 @@ li{
     transition: color 650ms;
 }
 
+.fa-linkedin:hover{
+    color: #0077B5;
+}
+
 .fa-facebook-square:hover{
     color: #4267b2;
 }
@@ -289,7 +293,7 @@ li{
 }
 
 .fa-github-square:hover{
-    color: #ea4c89;
+    color: #24292E;
 }
 /*End about*/
 
