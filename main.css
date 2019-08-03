@@ -54,7 +54,7 @@ img{
 }
 
 .section-heading h1{
-    font-size: 3.5rem;
+    font-size: 6rem;
     color: rgba(255,255,255, .3);
     text-transform: uppercase;
     font-weight: 300;
@@ -75,18 +75,18 @@ img{
 .section-heading h1::before{
     width: 10rem;
     height: 3px;
-    border-radius: .8rem;
+    border-radius: 100%;
 }
 
-.section-heading h1::after{
+/* .section-heading h1::after{
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 100%;
     bottom: -1rem;
-}
+} */
 
 .section-heading h6{
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 300;
 
 }
@@ -136,7 +136,7 @@ li{
 
 .nav-link{
     font-family: 'Roboto',sans-serif; 
-    font-size: 5rem;
+    font-size: 4.5rem;
     padding: 1rem;
 }
 
@@ -297,7 +297,8 @@ li{
 }
 /*End about*/
 
-/*Start services*/
+/*previously services*/
+/*Start Career*/
 .my-skills{
     margin-top: 10rem;
     display: grid;
@@ -336,7 +337,8 @@ li{
     margin: auto;
     transform: rotate(-45deg);
 }
-/*End services*/
+/*End Career*/
+/*previously services*/
 
 /*Start portfolio*/
 .portfolio-item{
@@ -385,7 +387,7 @@ li{
 .portfolio-description .cta:hover{
     color: #2f67cd;
 }
-/*End services*/
+/*End portfolio*/
 
 /*Start timeline*/
 .timeline ul{
