@@ -1,7 +1,9 @@
-# Personal Webpage Project
+# My Personal Webpage Project
 
-## Develop personal space to highlight skills, projects, and overview
+## www.aboutwalter.net
 
-Following Julio Code's tutorial:
-"Create a Responsive Flexbox and Grid Portfolio Website"
-https://www.youtube.com/watch?v=T7PnWnTgusc&list=PLgyPzV0SgIsMkrwLhFnfqbzVVqcgfs0Tz&index=4
+### Develop personal space to highlight skills, projects, and overview
+
+Currently studing at the Microsoft Software & Systems Academy or MSSA in the Cybersecurity Administration cohort at Randolph AFB, TX (San Antonio area). Intensive and well-rounded program aimed to help transitioning active duty members or veterans off the military armed forces.
+
+Also, showcase the use of git version control, and (obviously) GitHub to demonstrate technical ability into different tech fields.
