@@ -407,7 +407,16 @@ li{
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .3;    
+    opacity: .4;    
+}
+
+.timeline h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 450;
+    margin-bottom: 0.8rem;
+    opacity: .7;    
 }
 
 .timeline .date{
@@ -447,7 +456,7 @@ li{
     height: 1.5rem;
     width: 1.5rem;
     background-color: #313534;
-}
+
 /*End timeline*/
 
 /*Start contact*/
