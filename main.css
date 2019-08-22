@@ -10,13 +10,13 @@
 html{
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
-    color: #eee;
+    color: #e9e9e9;
 }
 
 body{
     width: 100%;
     height: 100%;
-    background: url("w_images/blueish.jpg") no-repeat center fixed;
+    background: url("MyImages/backlit.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -26,7 +26,7 @@ section{
 
 a{
     text-decoration: none;
-    color: #eee;
+    color: #e9e9e9;
 }
 
 p{
@@ -55,7 +55,7 @@ img{
 
 .section-heading h1{
     font-size: 6rem;
-    color: rgba(255,255,255, .3);
+    color: rgba(255,255,255, .5);
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -97,7 +97,8 @@ img{
 
 .in-Text-a{
     text-decoration: none;
-    color: rgb(149, 187, 245);
+    color: #75fff8;
+    font-weight: 200;
 }
 /*End reusable*/
 
@@ -111,7 +112,7 @@ header{
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-color: #16162d;
+    background-color: #2f2f30;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -138,11 +139,12 @@ li{
     font-family: 'Roboto',sans-serif; 
     font-size: 4.5rem;
     padding: 1rem;
+    color: rgba(255,255,255, .7);
 }
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to top, #fdda3c, #FF0000);
     -webkit-background-clip: text;
     /* In case of standardization of this property added standard property for future compatibility */
     /* background-clip: text; */
@@ -174,7 +176,7 @@ li{
 }
 
 .bar{
-    background: linear-gradient(to right, #ffe838, #fd57bf);
+    background: linear-gradient(to right, #fdda3c, #FF0000);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -222,7 +224,7 @@ li{
 .landing-text h1{
     font-size: 20rem;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to bottom, #fdda3c, #FF0000);
     -webkit-background-clip: text;
     /* In case of standardization of this property added standard property for future compatibility */
     /* background-clip: text; */
@@ -254,7 +256,7 @@ li{
 
 .about-heading h1{
     font-size: 10rem;
-    opacity: .3;
+    opacity: .5;
 }
 
 .about-heading h6{
@@ -317,22 +319,25 @@ li{
 
 .skill h1{
     text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 2rem;
+    color: #fff7f7;
     letter-spacing: 2px;
-    margin: 2rem -2px 2rem 0;
+    margin: 2rem -2px 2rem 0;    
 }
 
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    border: 3px solid #fdda3c;
+    background-color: #1c2424ab;
     margin-bottom: 2rem;
     display: flex;   
     transform: rotate(45deg); 
 }
 
 .icon-container i{
-    color: #ffe838;
+    color: #999999c7;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -371,8 +376,9 @@ li{
 .portfolio-description h6{
     font-size: 1.5rem;
     text-transform: uppercase;
+    text-decoration: underline;
     font-weight: 300;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 .portfolio-description .cta{
@@ -380,18 +386,18 @@ li{
     margin-top: 2.5rem;
     font-size: 1.8rem;
     /* text-transform: uppercase; */
-    color: #3883ff;
+    color: #75fff8;
     transition: color 650ms;
 }
 
 .portfolio-description .cta:hover{
-    color: #2f67cd;
+    color:  #9ec9c6;
 }
 /*End portfolio*/
 
 /*Start timeline*/
 .timeline ul{
-    border-left: 4px solid #ffe838;
+    border-left: 4px solid #fdda3c;
     border-radius: .8rem;
     background-color: rgba(0,0,0,0.05);
     margin: 0 auto;
@@ -403,11 +409,11 @@ li{
 }   
 
 .timeline h1{
-    font-size: 2rem;
+    font-size: 2.1rem;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 550;
     margin-bottom: 1rem;
-    opacity: .4;    
+    opacity: .9;    
 }
 
 .timeline h2{
@@ -417,6 +423,12 @@ li{
     font-weight: 450;
     margin-bottom: 0.8rem;
     opacity: .7;    
+}
+
+.timeline p{
+    font-size: 1.8rem;
+    font-weight: 200;
+    opacity: .8;
 }
 
 .timeline .date{
@@ -452,7 +464,7 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px #FF0000;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
@@ -464,7 +476,7 @@ li{
 
 /*Start contact*/
 .contact{
-    background-color: #221e3f;
+    background-color: #211016;
 }
 
 form{
@@ -483,13 +495,13 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #fd57bf;
+    outline-color: #FF0000;
 }
 
 input[type="submit"]{
     width: initial;
-    background-color: #fd57bf;
-    color: #eee;
+    background-color:rgba(231, 223, 243, 0.993);
+    color: rgb(133, 128, 128);
     padding: 1rem 2rem;
     border-radius: .8rem;
     cursor: pointer;
@@ -498,7 +510,7 @@ input[type="submit"]{
 
 input[type="submit"]:hover{   
     color: #221e3f;
-    background-color: #ffe838;    
+    background-color: #75fff8cc;    
 }
 /*End contact*/
 
@@ -506,7 +518,7 @@ input[type="submit"]:hover{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #16162d;
+    background-color: #351857;
     padding: 2rem 0;
     position: relative;
 }
@@ -538,13 +550,13 @@ input[type="submit"]:hover{
 /*Start animations*/
 @keyframes pulse{
     0%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+        box-shadow: 0 0 0 0 rgba(245, 205, 26, 0.99);
     }
     70%{
-        box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 2rem rgba(245, 205, 26, 0);
     }
     100%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 0 rgba(245, 205, 26, 0);
     }
 }
 /*End animations*/
@@ -552,7 +564,7 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @media screen and (max-width: 768px) {
     body{
-        background: url("w_images/blueish.jpg") no-repeat center fixed;
+        background: url("MyImages/backlit.jpg") no-repeat center fixed;
         background-size: cover;
     }
 
