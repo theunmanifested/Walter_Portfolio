@@ -112,7 +112,7 @@ header{
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-color: #2f2f30;
+    background-color: #2F2F30;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -499,7 +499,7 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #FF0000;
+    outline-color: #A033A0;
 }
 
 input[type="submit"]{

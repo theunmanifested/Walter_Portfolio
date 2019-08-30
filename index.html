@@ -8,6 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="image" property="og:image" content="MyImages/thumbnail.png">
     <title>Walter S. Valdez</title>
     <!-- credit to Michael Snik and his awesome animation-on-scroll functionality @ https://github.com/michalsnik/aos/commits?author=michalsnik-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -311,9 +312,14 @@
             <div class="section-heading">
                 <h1>Contact Me</h1>
                 <h6>Let's get to work!</h6>
-            </div>
-            <!-- method for form might be changed to POST pending test -->
-            <form action="mailto:walter@aboutwalter.net" method="get" enctype="text/plain" data-aos="fade-up" data-aos-delay="300">
+                <br>
+                <br>
+                <br>
+                <h6><a href="mailto:walter@aboutwalter.net" target="_top" class="in-Text-a">walter@aboutwalter.net</a></h6>
+            </div>            
+            <!-- Possible Form but needs to be secured -->
+            <!-- method for form might be changed to POST pending test
+            <form action="secure_email.php" method="POST" data-aos="fade-up" data-aos-delay="300">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name..." required>
                 <label for="email">Email:</label>
@@ -321,7 +327,7 @@
                 <label for="subject">Subject:</label>
                 <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
                 <input type="submit" value="Submit">
-            </form>
+            </form> -->
         </div>
     </section>
     <!--Footer-->
