@@ -95,6 +95,10 @@ img{
     margin-right: 5rem;
 }
 
+/* .has-margin-left{
+    margin-left: 5rem;
+} */
+
 .in-Text-a{
     text-decoration: none;
     color: #75fff8;
@@ -112,7 +116,7 @@ header{
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-color: #2F2F30;
+    background-color: #15143C;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -236,7 +240,7 @@ li{
 .landing-text h6{
     font-size: 3rem;
     font-weight: 300;
-    background: linear-gradient(to top, #fff, #ff3434c7);
+    background: linear-gradient(to top, #fdda3c, #ff3434c7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     user-select: none;
@@ -380,7 +384,6 @@ li{
 .portfolio-description h6{
     font-size: 1.5rem;
     text-transform: uppercase;
-    text-decoration: underline;
     font-weight: 300;
     opacity: 0.7;
 }
@@ -389,12 +392,24 @@ li{
     display: inline-block;
     margin-top: 2.5rem;
     font-size: 1.8rem;
-    /* text-transform: uppercase; */
     color: #75fff8;
     transition: color 650ms;
 }
 
 .portfolio-description .cta:hover{
+    color:  #9ec9c6;
+}
+
+/* special cta class with no margin-top */
+.portfolio-description .ctb{
+    display: inline-block;
+    /* margin-top: 2.5rem; */
+    font-size: 1.8rem;
+    color: #75fff8;
+    transition: color 650ms;
+}
+
+.portfolio-description .ctb:hover{
     color:  #9ec9c6;
 }
 /*End portfolio*/
@@ -473,14 +488,14 @@ li{
     left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #313534;
+    background-color: #999999;
 }
 
 /*End timeline*/
 
 /*Start contact*/
 .contact{
-    background-color: #211016;
+    background-color: rgba(36, 41, 46, 0.897);
 }
 
 form{
@@ -499,7 +514,7 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #A033A0;
+    outline-color: #FF0000;
 }
 
 input[type="submit"]{
@@ -522,7 +537,7 @@ input[type="submit"]:hover{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #351857;
+    background-color: #4D1F4E;
     padding: 2rem 0;
     position: relative;
 }
