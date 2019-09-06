@@ -583,7 +583,7 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @media screen and (max-width: 768px) {
     body{
-        background: url("MyImages/backlit.jpg") no-repeat center fixed;
+        background: url("MyImages/backlit_med.jpg") no-repeat center fixed;
         background-size: cover;
     }
 
