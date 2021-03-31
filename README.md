@@ -2,6 +2,6 @@
 
 ## www.aboutwalter.net
 
-### Develop personal space to highlight skills, projects, and overview
+### Developed a personal space to highlight skills, projects, and overview
 
 
